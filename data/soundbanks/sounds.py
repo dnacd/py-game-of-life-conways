@@ -1,9 +1,8 @@
 import pygame
 from random import choice
 
-spath = 'data/soundbanks/'
 example_sounds = []
-for sbank in (f'{spath}Chiptronical.ogg', '{spath}InterstellarOdyssey.ogg', '{spath}SolveThePuzzle.ogg'):
+for sbank in (f'data/soundbanks/Chiptronical.ogg', 'data/soundbanks/InterstellarOdyssey.ogg', 'data/soundbanks/SolveThePuzzle.ogg'):
     example_sounds.append(sbank)
     
 def sound_on():
